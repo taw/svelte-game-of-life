@@ -1,7 +1,7 @@
 <script>
   import Cell from "./Cell.svelte";
   import { runStep } from "./simulation";
-	import { onDestroy } from 'svelte';
+  import { onDestroy } from 'svelte';
 
   let sizex = 30
   let sizey = 30
